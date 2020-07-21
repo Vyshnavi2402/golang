@@ -1,0 +1,24 @@
+package main
+import( "fmt)
+  
+  var x[10] float32
+  var y[10] float32
+
+  func main()  {
+    x[0] =38
+    x[1] =30
+    x[2] =35
+    x[3] =40
+    x[4] =45
+    x[5] =50
+    y[1] =15.9
+    y[2] =14.9
+    y[3] =14.1
+    y[4] =13.3
+    y[5] =12.5
+var h float32 
+  h=x[2]-x[1]
+    var p=(x[0]-x[3])/h
+fmt.Printf("the value of h is :",h)
+       
+  }
